@@ -161,7 +161,8 @@ function deleteproduct(deletindex) {
 function validateForme(element){
    console.log(element.id)
    var regex={
-   ProuductDesc:/^[\w ]{4,300}$/
+   ProuductDesc:/^[\w ]{4,300}$/,
+   VISIT: /^([\w-]+\.)+[\w-]{2,}$/
    }
    console.log(regex[element.id])
 
